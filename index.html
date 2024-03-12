@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="img/pngwing.com (6).png" type="image/x-icon">
+    <!-- icon -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- font -->
+    <link rel="stylesheet" href="css/font.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- media -->
+    <link rel="stylesheet" href="css/media-home.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/defination-pro.css">
+</head>
+
+<body>
+    <div id="prealoader">
+        <div class="logo position-absolute start-0 top-0 end-0">
+            <div class="netflix">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <!-- header-area -->
+    <header>
+        <div class="header position-relative">
+            <video src="./img/Untitled design (3).mp4" class="position-absolute top-0" autoplay muted loop></video>
+            <img src="./img/black-bg.png" alt="" class="position-absolute">
+            <div class="header-area animate__animated animate__fadeInDown">
+                <nav class="navbar navbar-expand-lg pt-3 pb-3">
+                    <div class="container">
+                        <a class="navbar-brand" href="#"><img src="./img/netflix-logo-png-2562.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item ps-lg-0 ps-xxl-2">
+                                    <a class="nav-link active border-2 border-bottom border-danger" aria-current="page"
+                                        href="#">Home</a>
+                                </li>
+                                <li class="nav-item  ps-lg-0 ps-xxl-3">
+                                    <a class="nav-link active" aria-current="page" href="movie.html">TV Shows</a>
+                                </li>
+                                <li class="nav-item  ps-lg-0 ps-xxl-3">
+                                    <a class="nav-link active" aria-current="page" href="movie.html">New</a>
+                                </li>
+                                <li class="nav-item  ps-lg-0 ps-xxl-3">
+                                    <a class="nav-link active" aria-current="page" href="movie.html">WWE</a>
+                                </li>
+                                <li class="nav-item ps-lg-0 ps-xxl-3">
+                                    <a class="nav-link active" aria-current="page" href="movie.html">Sports</a>
+                                </li>
+                                <li class="nav-item ps-lg-0 ps-xxl-3">
+                                    <a class="nav-link active" aria-current="page" href="movie.html">Movies</a>
+                                </li>
+                                <li class="nav-item nav-li-drop  ps-lg-0 ps-xxl-3">
+                                    <a class="nav-link active" data-bs-toggle="dropdown" aria-expanded="false"
+                                        aria-current="page" href="#">Premium</a>
+                                    <div class="dropdown position-absolute">
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-white" href="movie.html">Hindi Movies</a>
+                                            </li>
+                                            <li><a class="dropdown-item  text-white" href="movie.html">English
+                                                    Movies</a></li>
+                                            <li><a class="dropdown-item text-white" href="movie.html">Marathi Movies</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-white" href="movie.html">Telugu Movies</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-white" href="movie.html">Malayalam
+                                                    Movies</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="d-flex ms-sm-5" role="search">
+                                <input list="movie" class="form-control me-2 rounded-1" type="search"
+                                    placeholder="Search" aria-label="Search">
+                                <datalist id="movie" href="">
+                                    <option value="Iron Man" class="p-0"></option>
+                                    <option value="The Incredible Hulk"></option>
+                                    <option value="Iron Man 2"></option>
+                                    <option value="Thor"></option>
+                                    <option value="Captain America: The First Avenger"></option>
+                                    <option value="The Avengers"></option>
+                                    <option value="Thor: The Dark World"></option>
+                                    <option value="Doctor Strange"></option>
+                                    <option value="Pathaan"></option>
+                                    <option value="KGF Chapter 2"></option>
+                                    <option value="Dangal"></option>
+                                    <option value="Sanju"></option>
+                                    <option value="Blood shoot"></option>
+                                    <option value="The dark river"></option>
+                                    <option value="Stranger things"></option>
+                                    <option value="Mition imposible 5"></option>
+                                </datalist>
+
+                                <a class="btn btn-outline-danger text-white rounded-1 me-2" href="movie.html">Search</a>
+                            </form>
+                            <span class="text-white fs-2 line-breaker">
+                                |
+                            </span>
+                            <div class="login">
+                                <div
+                                    class="login-btn btn border-white ms-3 ps-1 d-flex align-content-center justify-content-center">
+                                    <p class="mb-0 ms-3" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+                                        Login</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="header-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="header-main-cap">
+                                <div class="main-heading d-flex align-items-end  animate__animated animate__fadeInUp">
+                                    <h1 class="text-white fw-semibold">
+                                        Unlimited movies, TV shows and more
+                                    </h1>
+                                </div>
+                                <span>
+                                    <h4 class="text-white fw-light pt-3  animate__animated animate__fadeInUp">
+                                        Watch anywhere. Cancel anytime.
+                                    </h4>
+                                </span>
+                                <button
+                                    class="btn btn-outline-danger text-white rounded-1 mt-4 mb-5  animate__animated animate__fadeInLeft"
+                                    type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Whatch
+                                    Now</button>
+                                <!-- modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                                        <div class="modal-content bg-transparent">
+                                            <div class="modal-header border-0">
+                                                <h1 class="modal-title text-white fs-2" id="exampleModalLabel">Avengers:
+                                                    Endgame</h1>
+                                                <button type="button" class="btn text-white" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <video src="./img/Untitled design (3).mp4" autoplay controls></video>
+                                            </div>
+                                            <div class="modal-footer border-0">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- login-modal -->
+                                <div class="login-modal">
+                                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header border-0">
+                                                    <h1 class="modal-title fs-4 text-white"
+                                                        id="exampleModalToggleLabel">Login
+                                                    </h1>
+                                                    <button type="button" class="btn-close pe-3" data-bs-dismiss="modal"
+                                                        aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <form action="">
+                                                    <div class="modal-body mt-5 mb-3">
+                                                        <div class="col-12"><label for="" class="text-white ps-3"><i
+                                                                    class="fa-regular fa-envelope text-white ps-2 pe-2"></i>
+                                                                Enter
+                                                                Your Email</label></div>
+                                                        <div class="col-12 ps-2 mb-4">
+                                                            <input type="email" placeholder=""
+                                                                class="w-100 text-white bg-transparent" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button class="btn border-2 w-100"
+                                                            data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                                                            type="submit">Continue</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header border-0">
+                                                    <h1 class="modal-title fs-5 text-white"
+                                                        id="exampleModalToggleLabel2">Password
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body  mt-5 mb-3">
+                                                    <div class="col-12"><label for="" class="text-white ps-3"><i
+                                                                class="fa-solid fa-lock text-white ps-2 pe-2"></i> Enter
+                                                            Your
+                                                            Password</label></div>
+                                                    <div class="col-12 ps-2  mb-4">
+                                                        <input type="password" placeholder=""
+                                                            class="w-100 text-white bg-transparent">
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer col-12">
+                                                    <button class="btn"
+                                                        class="btn-close border-bottom border-2 border-white p-0 w-100"
+                                                        data-bs-dismiss="modal" aria-label="Close">Login</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel pt-5 pb-5 bg-carousel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="text-white pb-3">Latest Movies <i class="fa-solid fa-chevron-right fs-4"></i>
+                            </h3>
+                        </div>
+                        <div class="col-12 wow animate__fadeInUp">
+                            <div class="carousel-top1 d-flex flex-wrap z-3 position-relative">
+                                <span class="play-btn"></span>
+                                <div class="col-2"><a href="file:///E:/parthik-r/def-project/movie.html#"><img
+                                            src="./img/01.jpg" alt=""></a></div>
+                                <div class="col-2"><a href="file:///E:/parthik-r/def-project/movie.html#"><img
+                                            src="./img/02.jpg" alt=""> </a></div>
+                                <div class="col-2"> <img src="./img/03.jpg" alt=""></div>
+                                <div class="col-2"> <img src="./img/04.jpg" alt=""></div>
+                                <div class="col-2"><img src="./img/05.jpg" alt=""> </div>
+                                <div class="col-2"><img src="./img/06.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- slides -->
+        <section class="slides bg-carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 benner  wow animate__fadeInUp">
+                        <div class="slide-1 mb-5">
+                            <a href="#">
+                                <img src="./img/kbc_promo_4aug_web.webp" alt="" class="rounded-4">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInLeft">
+                        <div class="carousel-play-4">
+                            <h3 class="text-white pb-3">New in 2023<i class="fa-solid fa-chevron-right ps-2"></i></h3>
+                            <div class="carousel-top2 d-flex flex-wrap z-3">
+                                <div class="col-3"><img src="./img/n1.webp" alt=""></div>
+                                <div class="col-3"> <img src="./img/n2.webp" alt=""></div>
+                                <div class="col-3"> <img src="./img/n3.webp" alt=""></div>
+                                <div class="col-3"><img src="./img/n4.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInLeft">
+                        <div class="carousel-play-partner">
+                            <h3 class="text-white pb-3 pt-5">Our partners<i class="fa-solid fa-chevron-right ps-2"></i>
+                            </h3>
+                            <div class="carousel-top2 d-flex flex-wrap z-3">
+                                <div class="col-2"><img src="./img/p1.jpg" alt="" class=""></div>
+                                <div class="col-2"> <img src="./img/imax.png" alt="" class=""></div>
+                                <div class="col-2"> <img src="./img/ZEE5_logo.svg" alt="" class="bg-black"></div>
+                                <div class="col-2"> <img src="./img/disn.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInRight">
+                        <div class="carousel-play">
+                            <h3 class="text-white pb-3 pt-5">Most Watched Movies in india<i
+                                    class="fa-solid fa-chevron-right ps-2"></i></h3>
+                            <div class="carousel-top1 d-flex flex-wrap z-3">
+                                <div class="col-2"> <img src="./img/m1.jpg" alt=""></div>
+                                <div class="col-2"><img src="./img/m2.jpg" alt=""> </div>
+                                <div class="col-2"> <img src="./img/m3.jpg" alt=""></div>
+                                <div class="col-2"> <img src="./img/m4.jpg" alt=""></div>
+                                <div class="col-2"><img src="./img/m5.jpg" alt=""> </div>
+                                <div class="col-2"><img src="./img/m6.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInLeft">
+                        <div class="carousel-play">
+                            <h3 class="text-white pb-3 pt-5">Hindi For You<i class="fa-solid fa-chevron-right ps-2"></i>
+                            </h3>
+                            <div class="carousel-top1 d-flex flex-wrap z-3">
+                                <div class="col-2"> <img src="./img/h1.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/h2.webp" alt=""> </div>
+                                <div class="col-2"> <img src="./img/h3.webp" alt=""></div>
+                                <div class="col-2"> <img src="./img/h4.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/h5.webp" alt=""> </div>
+                                <div class="col-2"><img src="./img/h6.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 benner  wow animate__fadeInUp">
+                        <div class="slide-1">
+                            <a href="#">
+                                <img src="./img/b-2.webp" alt="" class="mt-5 mb-3  rounded-4">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInRight">
+                        <div class="carousel-play">
+                            <h3 class="text-white pb-3 pt-5">Horror Movies<i class="fa-solid fa-chevron-right ps-2"></i>
+                            </h3>
+                            <div class="carousel-top1 d-flex flex-wrap z-3">
+                                <div class="col-2"> <img src="./img/r1.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/r2.webp" alt=""> </div>
+                                <div class="col-2"> <img src="./img/r3.webp" alt=""></div>
+                                <div class="col-2"> <img src="./img/r4.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/r5.webp" alt=""> </div>
+                                <div class="col-2"><img src="./img/r6.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInLeft">
+                        <div class="carousel-play">
+                            <h3 class="text-white pb-3 pt-5">Comedy Movies
+                                <i class="fa-solid fa-chevron-right ps-2"></i>
+                            </h3>
+                            <div class="carousel-top1 d-flex flex-wrap z-3">
+                                <div class="col-2"> <img src="./img/c1.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/c2.webp" alt=""> </div>
+                                <div class="col-2"> <img src="./img/c3.webp" alt=""></div>
+                                <div class="col-2"> <img src="./img/c4.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/c5.webp" alt=""> </div>
+                                <div class="col-2"><img src="./img/c6.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInRight">
+                        <div class="carousel-play">
+                            <h3 class="text-white pb-3 pt-5">Top Shows<i class="fa-solid fa-chevron-right ps-2"></i>
+                            </h3>
+                            <div class="carousel-top1 d-flex flex-wrap z-3">
+                                <div class="col-2"> <img src="./img/s1.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/s2.webp" alt=""> </div>
+                                <div class="col-2"> <img src="./img/s3.webp" alt=""></div>
+                                <div class="col-2"> <img src="./img/s4.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/s5.webp" alt=""> </div>
+                                <div class="col-2"><img src="./img/s6.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 benner  wow animate__fadeInUp">
+                        <div class="slide-1">
+                            <a href="#">
+                                <img src="./img/b-3.webp" alt="" class="mt-5">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInLeft">
+                        <div class="carousel-play">
+                            <h3 class="text-white pb-3 pt-5">Kids Movies<i class="fa-solid fa-chevron-right ps-2"></i>
+                            </h3>
+                            <div class="carousel-top1 d-flex flex-wrap z-3">
+                                <div class="col-2"> <img src="./img/k1.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/k2.webp" alt=""> </div>
+                                <div class="col-2"> <img src="./img/k3.webp" alt=""></div>
+                                <div class="col-2"> <img src="./img/k4.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/k5.webp" alt=""> </div>
+                                <div class="col-2"><img src="./img/k6.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInRight">
+                        <div class="carousel-play">
+                            <h3 class="text-white pb-3 pt-5">Non Stop Comedy
+                                <i class="fa-solid fa-chevron-right ps-2"></i>
+                            </h3>
+                            <div class="carousel-top1 d-flex flex-wrap z-3">
+                                <div class="col-2"> <img src="./img/nc7.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/nc8.webp" alt=""> </div>
+                                <div class="col-2"> <img src="./img/nc9.webp" alt=""></div>
+                                <div class="col-2"> <img src="./img/nc10.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/nc11.webp" alt=""> </div>
+                                <div class="col-2"><img src="./img/nc12.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  wow animate__fadeInLeft">
+                        <div class="carousel-play pt-5 pb-5">
+                            <div class="carousel-top1 d-flex flex-wrap z-3">
+                                <div class="col-2"> <img src="./img/nc1.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/nc2.webp" alt=""> </div>
+                                <div class="col-2"> <img src="./img/nc3.webp" alt=""></div>
+                                <div class="col-2"> <img src="./img/nc4.webp" alt=""></div>
+                                <div class="col-2"><img src="./img/nc5.webp" alt=""> </div>
+                                <div class="col-2"><img src="./img/nc6.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="loader-speed d-none">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHq6Hsp0sKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <div class="break pt-2 pb-2 bg-black">
+
+    </div>
+    <!-- footer-area -->
+    <div class="up-arrow">
+        <div class="arrow-btn position-fixed">
+            <a href="#" class="text-decoration-none"><img src="./img/netflix-up arrow.png" alt=""></a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-area bg-carousel pt-4 text-secondary ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3  wow animate__fadeInUp">
+                        <div class="top-tv-shows pt-3">
+                            <a href="#" class="text-decoration-none text-secondary">
+                                <h5 class="pb-4">Top Tv Shows</h5>
+                            </a>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-decoration-none">Hum Rahein Na Rahein Hum</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Sapno Ki Chhalaang</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Taarak Mehta Ka Ooltah
+                                        Chashmah</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Katha Ankahee</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">The Kapil Sharma Show</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3  wow animate__fadeInUp">
+                        <div class="top-tv-shows pt-3">
+                            <a href="#" class="text-decoration-none text-secondary">
+                                <h5 class="pb-4">Movies by Language</h5>
+                            </a>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-decoration-none">Hindi Movies</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">English Movies</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Marathi Movies</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Telugu Movies</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Malayalam Movies</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3  wow animate__fadeInUp">
+                        <div class="top-tv-shows pt-3">
+                            <a href="#" class="text-decoration-none text-secondary">
+                                <h5 class="pb-4">Channels</h5>
+                            </a>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-decoration-none">Netflix-india</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Netflix arena</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Chill whith Netflix</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Netflix office</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Netflix Show</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3  wow animate__fadeInUp">
+                        <div class="top-tv-shows pt-3">
+                            <ul class="list-unstyled pt-5">
+                                <li>
+                                    <a href="#" class="text-decoration-none text-secondary">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Media Center</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Ways To Watch</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Cookie</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Speed Test</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right pt-3 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6  wow animate__fadeInUp">
+                            <div class="copy-text">
+                                <div class="copy-left d-flex align-items-center">
+                                    copyright <i class="fa-regular fa-copyright"></i> 2023
+                                    <p class="mb-0 ms-4">Made Whith <i class="fa-solid fa-heart text-danger"></i> by
+                                        Parthik jadav</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6  wow animate__fadeInUp">
+                            <div class="copy-right-text d-flex justify-content-between float-end">
+                                <ul class="list-unstyled d-flex">
+                                    <li>
+                                        <a href="#" class="text-decoration-none">Terms of use</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-decoration-none">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-decoration-none">FAQs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-decoration-none">Advertise With Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--============ cursor =============-->
+    <script>
+        var cursor = document.querySelector('.cursor');
+        var cursorinner = document.querySelector('.cursor2');
+        var a = document.querySelectorAll('a');
+
+        document.addEventListener('mousemove', function (e) {
+            var x = e.clientX;
+            var y = e.clientY;
+            cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
+        });
+
+        document.addEventListener('mousemove', function (e) {
+            var x = e.clientX;
+            var y = e.clientY;
+            cursorinner.style.left = x + 'px';
+            cursorinner.style.top = y + 'px';
+        });
+
+        document.addEventListener('mousedown', function () {
+            cursor.classList.add('click');
+            cursorinner.classList.add('cursorinnerhover')
+        });
+
+        document.addEventListener('mouseup', function () {
+            cursor.classList.remove('click')
+            cursorinner.classList.remove('cursorinnerhover')
+        });
+
+        a.forEach(item => {
+            item.addEventListener('mouseover', () => {
+                cursor.classList.add('hover');
+            });
+            item.addEventListener('mouseleave', () => {
+                cursor.classList.remove('hover');
+            });
+        })
+    </script>
+    <!--================= loader===================== -->
+    <script>
+        var loader = document.getElementById("prealoader");
+
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+
+    </script>
+    <!--======================== wow ======================-->
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    
+
+</body>
+
+</html>
